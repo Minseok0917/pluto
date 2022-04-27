@@ -1,10 +1,9 @@
-const component = (
-	<div>
-		<h1>1</h1>
-	</div>
-);
+import Home from '@/view/Home';
 
 
-console.log(component);
 
-console.log('env',process.env.mode)
+
+
+const B = <Home name="HOME1234" />
+
+console.log(B);
