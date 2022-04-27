@@ -10,6 +10,10 @@
 	- `React.createElement` => `Pluto.createElement`
 	- `React.createElement` => `Pluto.Fragment` 
 
+## 2022.04.28
+- webpack : resolve 의 alias 사용하여 module pluto, plutoDom 경로 지정
+- pluto module : DOM 구조로 객체 변환 코드 작성
+- test component: import 한 컴포넌트에 props , children 테스트
 
 
 ## Renfence
