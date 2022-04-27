@@ -37,6 +37,8 @@ module.exports = {
 	resolve:{
 		alias:{
 			'@':getPath('src'),
+			'pluto':getPath('src/modules/pluto'),
+			'plutoDom':getPath('src/modules/plutoDom')
 		}
 	},
 	plugins: [
