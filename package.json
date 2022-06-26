@@ -1,24 +1,23 @@
 {
-	"name": "my-react",
-	"description": "나만의 리액트 만들어 보기",
-	"version": "1.0.0",
-	"license": "MIT",
-	"scripts": {
-		"dev": "cross-env mode=dev webpack-dev-server",
-		"dev1": "cross-env mode=prd webpack-dev-server",
-		"build": "webpack"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.17.9",
-		"@babel/preset-env": "^7.16.11",
-		"@babel/preset-react": "^7.16.7",
-		"babel-loader": "^8.2.5",
-		"babel-plugin-transform-inline-environment-variables": "^0.4.3",
-		"cross-env": "^7.0.3",
-		"dotenv": "^16.0.0",
-		"html-webpack-plugin": "^5.5.0",
-		"webpack": "^5.72.0",
-		"webpack-cli": "^4.9.2",
-		"webpack-dev-server": "^4.8.1"
-	}
+    "name": "my-react",
+    "description": "나만의 리액트 만들어 보기",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        "babel-loader": "^8.2.5",
+        "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.8.1"
+    },
+    "workspaces": [
+        "projects\\develop",
+        "packages\\core"
+    ]
 }
